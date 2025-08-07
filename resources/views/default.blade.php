@@ -14,6 +14,7 @@
     x-data="{ 
       darkMode: false, 
       sidebarToggle: false,
+      menuToggle: true,
       page: 'ecommerce',
       loaded: true 
     }"
@@ -47,13 +48,13 @@
           @include('partials.metric-group.metric-group-01')
 
           <!-- Chart One -->
-          @include('partials.chart.chart-01')
+          @include('partials.chart.chart-02')
 
           <!-- Recent Transactions -->
-          <div class="bg-white rounded-lg shadow">
-            <div class="px-6 py-4 border-b">
-              <h2 class="text-lg font-semibold text-gray-900">Transaksi Terbaru</h2>
-              </div>
+          <div class="border border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-white/[0.03] rounded-lg shadow">
+            <div class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+              <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Transaksi Terbaru</h2>
+            </div>
             <div class="p-6">
               <div class="overflow-x-auto">
                 <table class="min-w-full divide-y divide-gray-200">
