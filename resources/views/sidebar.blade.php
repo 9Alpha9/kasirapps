@@ -1366,6 +1366,14 @@
           <!-- Menu Item Authentication -->
         </ul>
       </div>
+      <div class="flex flex-col gap-2 mt-12 mb-12">
+        <div class="flex flex-row gap-2 items-center justify-center">
+          <p class="text-sm text-gray-600 dark:text-gray-600">Powered By</p>
+          <a href="https://www.bagian.web.id">
+            <img src="./images/logo/bagian-logo.svg" class="w-8 h-8" alt="Bagian Logo" />
+          </a>
+        </div>
+      </div>
     </nav>
     <!-- Sidebar Menu -->
   </div>

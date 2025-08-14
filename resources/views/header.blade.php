@@ -613,7 +613,7 @@
           @click.prevent="dropdownOpen = ! dropdownOpen"
         >
           <span class="mr-3 h-11 w-11 overflow-hidden rounded-full">
-            <img src="./images/user/owner.jpg" alt="User" />
+            <img src="./images/user/bagian-logo.png" alt="User" />
           </span>
 
           <span class="text-theme-sm mr-1 block font-medium"> Musharof </span>
